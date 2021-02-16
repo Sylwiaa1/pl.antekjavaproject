@@ -35,7 +35,7 @@ public class App {
 
 
 
-System.out.println("Wpisz pierwsza liczbe");
+/*System.out.println("Wpisz pierwsza liczbe");
 int a = scanner.nextInt();
 
 
@@ -54,6 +54,22 @@ if(o.equals("+") ){
     System.out.println(a+" + "+b+" = "+(a-b));
 }else{
     System.out.println("zly operator");
+}
+*/
+
+String o = "+"
+switch(o){
+    System.out.println("PLUS");
+    break;
+    case "=";
+    System.out.println("MINUS");
+    break;
+    case "*";
+    System.out.println("RAZY");
+    break;
+    default
+    System.out.println("CO INNEGO");
+
 }
 
 
