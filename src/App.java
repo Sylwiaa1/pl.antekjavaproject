@@ -34,7 +34,7 @@ public class App {
 */
 
 
-/* kalkulator +/-
+
 System.out.println("Wpisz pierwsza liczbe");
 int a = scanner.nextInt();
 
@@ -55,7 +55,7 @@ if(o.equals("+") ){
 }else{
     System.out.println("zly operator");
 }
-*/
+
 
 
 
