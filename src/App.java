@@ -22,20 +22,23 @@ public class App {
         scanner.close();
         */
 
-       int nr = 2;
+     /*  int nr = 10;
        
        if(nr == 2){
-       System.out.println("Liczby są równe");
+       System.out.println("Liczby to 2");
        }else if(nr == 3){
         System.out.println("Liczby to 3");
        }else{
-        System.out.println("Liczby nie są równe ");
+        System.out.println("Jakas inna liczba niz 3 i 2 ");
        }
-
-
-/*
-teraz dałam
 */
+
+System.out.println("Wpisz pierwsza liczbe");
+int a = scanner.nextInt();
+System.out.println("Wpisz druga liczbe");
+int b = scanner.nextInt();
+System.out.println("Wynik to:");
+System.out.println(a+ " + "+b+" = "+(a+b));
 
 
         scanner.close();
