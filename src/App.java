@@ -33,12 +33,30 @@ public class App {
        }
 */
 
+
+/* kalkulator +/-
 System.out.println("Wpisz pierwsza liczbe");
 int a = scanner.nextInt();
+
+
+System.out.println("Podaj operato + lub -");
+scanner.nextLine();
+String o = scanner.nextLine();
+
 System.out.println("Wpisz druga liczbe");
 int b = scanner.nextInt();
+
 System.out.println("Wynik to:");
-System.out.println(a+ " + "+b+" = "+(a+b));
+
+if(o.equals("+") ){
+    System.out.println(a+" + "+b+" = "+(a+b));
+}else if(o.equals("-") ){
+    System.out.println(a+" + "+b+" = "+(a-b));
+}else{
+    System.out.println("zly operator");
+}
+*/
+
 
 
         scanner.close();
