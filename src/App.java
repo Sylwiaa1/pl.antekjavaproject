@@ -32,6 +32,12 @@ public class App {
         System.out.println("Liczby nie są równe ");
        }
 
+
+/*
+teraz dałam
+*/
+
+
         scanner.close();
     }
 }
