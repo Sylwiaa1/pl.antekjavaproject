@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
       
-        /* 
+/* 
         to jest wpisywanie imienia i wyswietlanie go
         System.out.println("Podaj swoje imię");
          Scanner scanner = new Scanner(System.in);
@@ -11,7 +11,7 @@ public class App {
          System.out.println("Twoje imię to "+firstName);
          scanner.close();
         */ 
-      /* 
+/* 
        kalkulator 2 liczb
        System.out.println("podaj pierwsza liczbę");
         int a = scanner.nextInt();
@@ -20,7 +20,7 @@ public class App {
         System.out.println(a+" + "+b+" = "+(a+b));
         scanner.close();
         */
-     /*  int nr = 10;
+/*  int nr = 10;
        
        if(nr == 2){
        System.out.println("Liczby to 2");
@@ -67,45 +67,45 @@ switch(o){
     System.out.println("CO INNEGO");
 }*/
 
-Scanner scanner = new Scanner(System.in);
+  Scanner scanner = new Scanner(System.in);
 
-System.out.println("Podaj pierwsza liczbe");
-int a = scanner.nextInt();
+  System.out.println("Podaj pierwsza liczbe");
+  int a = scanner.nextInt();
 
-System.out.println("podaj operator + , - , * , /, %");
-scanner.nextLine();
-String o = scanner.nextLine();
+  System.out.println("podaj operator + , - , * , /, %");
+  scanner.nextLine();
+  String o = scanner.nextLine();
 
-System.out.println("Podaj druga liczbe");
-int b = scanner.nextInt();
+  System.out.println("Podaj druga liczbe");
+  int b = scanner.nextInt();
 
 switch (o) {
-   case "+":
+case "+":
    System.out.println(a+" + "+b+" = "+(a+b));
-   break;
+break;
 
-   case "-":
+case "-":
    System.out.println(a+" - "+b+" = "+(a-b));
-   break;
+break;
 
-   case "*":
+case "*":
    System.out.println(a+" * "+b+" = "+(a*b));
-   break;
+break;
 
-   case "/":
+case "/":
    System.out.println(a+" / "+b+" = "+(a/b));
-   break;
+break;
 
-   case "%":
+case "%":
    System.out.println(a+" % "+b+" = "+(a%b));
-   break;
+break;
 
-   default:
+default:
    System.out.println(" nie ma takiego operatora");
-   break;
+break;
 }
 
 
-        scanner.close();
+    scanner.close();
     }
 }
