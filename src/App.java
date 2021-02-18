@@ -4,7 +4,7 @@ import org.graalvm.compiler.nodes.java.DynamicNewArrayNode;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Scanner scanner = new Scanner(System.in);
+        
     /* 
         to jest wpisywanie imienia i wyswietlanie go
         System.out.println("Podaj swoje imię");
@@ -129,8 +129,7 @@ break;
        System.out.println(i+": "+licz[i]);
 
      }*/
-     
-    
+    /*
         String[][] dane = 
     {
         {"Więcej niż jedno zwierzę","stado","klucz","dwa","owca","lama"},
@@ -139,7 +138,7 @@ break;
         int wynik = 0;
     for(int i = 0; i < dane.length; i++)
     {
-        System.out.println(dane[i][0]); 
+        System.out.println(dane[i][0]);        
         String odpowiedz = scanner.nextLine(); 
         boolean isAnswerCorrect = false;
         
@@ -158,7 +157,44 @@ break;
         
     }
       }      
-      System.out.println("Twoj wynik to "+wynik);
-      scanner.close();
+      System.out.println("Wynik to "+wynik);
+      */
+    /*int random = (int)(Math.random() * 11) + 5;
+     double nr = Math.random();
+
+     System.out.println(random);
+     */
+    /* int nr = 5;
+     while(nr <= 10)
+     {
+        System.out.println("wykonuje" +nr );
+      nr++;
+     }*/
+         Scanner sc = new Scanner(System.in);
+         int random = (int)(Math.random()*100)+1;
+         System.out.println("sprobuj zgadnac cyfre masz na to 5 szans");
+         int start = 1;
+  
+    while(start <= 5 )
+    {
+         System.out.println("twoja "+start+" proba podaj jakas nastepna cyfre");
+         int a = sc.nextInt();
+    if(a > random)
+    {
+         System.out.println("podales za duza liczbe");
     }
-  }
+    else if(a < random)
+    {
+        System.out.println("podales za mala liczbe");
+    }else if(a == random)
+    {
+         System.out.println("gratulacje udalo ci sie!");
+    break;
+    }
+    start++;
+  
+  
+  
+    }
+    }
+    }
