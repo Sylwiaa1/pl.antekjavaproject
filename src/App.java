@@ -173,9 +173,9 @@ break;
          Scanner sc = new Scanner(System.in);
          int random = (int)(Math.random()*100)+1;
          System.out.println("sprobuj zgadnac cyfre masz na to 5 szans");
-         int start = 1;
+         int start=1;
   
-    while(start <= 5 )
+    while(start <=5)
     {
          System.out.println("twoja "+start+" proba podaj jakas nastepna cyfre");
          int a = sc.nextInt();
