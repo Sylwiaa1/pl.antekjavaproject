@@ -170,7 +170,7 @@ break;
         System.out.println("wykonuje" +nr );
       nr++;
      }*/
-         Scanner sc = new Scanner(System.in);
+       /*   Scanner sc = new Scanner(System.in);
          int random = (int)(Math.random()*100)+1;
          System.out.println("sprobuj zgadnac cyfre masz na to 5 szans");
          int start=1;
@@ -192,9 +192,9 @@ break;
     break;
     }
     start++;
-  
-  
-  
-    }
+    }   */
+
+
+      Scanner.close();
     }
     }
