@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RestapiApplication",
+            "request": "launch",
+            "mainClass": "restapi.src.main.java.com.myfirstwebapi.restapi.RestapiApplication",
+            "projectName": "pl.antekjavaproject_60601fec"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -16,7 +23,7 @@
             "request": "launch",
             "mainClass": "App",
             "projectName": "pl.antekjavaproject_60601fec",
-            "console": "externalTerminal"
+            "console": "internalConsole"
         }
     ]
 }
